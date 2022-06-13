@@ -1,10 +1,2 @@
-*.aux
-*.log
-*.pdf
-*.synctex.gz
-*.bbl
-*.bcf
-*.blg
-*.run.xml
-
+build/
 .direnv/
