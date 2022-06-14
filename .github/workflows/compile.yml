@@ -12,9 +12,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Tectonic
-        run: tectonic main.tex
+        run: tectonic -X build
       - name: Upload pdf
         uses: actions/upload-artifact@v2
         with:
-          name: main
-          path: main.pdf
+          name: draft
+          path: build/masters/masters.pdf
