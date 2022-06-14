@@ -1,0 +1,109 @@
+\section{Why do methodologies exist?}
+\label{sec:meth_why}
+To answer the question of why methodologies were created, a systematic literature review was conducted.
+This review consisted of the following identical search across six publications.
+
+First, only articles, conference proceedings, and book chapters were considered.
+
+Second, to ensure the results covered the topic of methodologies, any of the following phrases would need to appear in the title:
+\begin{itemize}
+    \item development methodology
+    \item software development process
+    \item software development lifecycle
+    \item software development life cycle
+\end{itemize}
+
+Finally, to narrow results to why methodologies exist, any of the following words would need to appear in the abstract:
+\begin{itemize}
+    \item creation
+    \item create
+    \item purpose
+    \item use
+    \item benefit
+\end{itemize}
+
+The combined results contained 543 items from 1972 to 2022.
+After reading the abstractions and removing duplicates, a short list of 50 results was created.
+From this list of 50 results, it was not possible to get the full article for 6 results.
+And one article only had its title and abstract in English.
+The abstract, introduction, and conclusion of the remaining 43 were then used to give each a rank from 1 to 5 with 5 being the highest rank.
+Only 30 had a rank of more than 2 and were all read to answer the question of why methodologies exist.
+
+The results will be discussed in chronological order grouped in 10-year periods.
+
+\subsection{1970s}
+In this period software development is still new with many practices borrowed from engineering.
+So we find that the structured methodologies promise to improve programmer's productivity, which we'll refer to as resource management.
+And to improve the reliability, maintainability, and quality of the end product \cite{yourdon_1977}.
+
+In this period personal computer made their entrance for the first time.
+However, most software was still written by engineers to perform a specific task like flying Project Apollo.
+These systems would have clearly defined procedures written by engineers that the software would need to follow.
+Hence, why quality and reliability was so important in this period.
+
+At the same time it would not be possible to update the program flying Apollo in mid-flight.
+Therefore, maintainability refers more to the short-term maintainability that would be needed before take-off.
+
+In this period, methodologies were also not a complete lifecycle encompassing package as they are today \cite{soi_1982, beregi_1985}.
+Rather, there was a separate methodology for design (like structured design) and another methodology for implementation (like structured programming) and yet another for analysis (structured analysis).
+Using them together was optional, so it is also possible to swap structured programming for top-down development while still using structured design \cite{yourdon_1977}.
+
+\subsection{1980s}
+This mix and match of methodologies for each phase and the tools used would eventually become methodologies covering all the software development phases \cite{beregi_1985}.
+And covering all the phases would become a success factor of a successful methodology \cite{soi_1982}.
+
+When looking at all the phases of development, cost became a concern to manage and reduce \cite{vanderlei_1983, peacham_1985, loesh_1985}.
+Managing time also became important as it has an impact on cost and timeliness ensures the system is not obsolete by the time it is operational because it took too long to be developed \cite{peacham_1985, beregi_1985, mannino_1987, paul_1993}.
+And this completes the famous triad of cost, time, and quality, but for any project, only two can be chosen.
+
+However, methodologies also existed to manage things such as:
+\begin{itemize}
+    \item User needs \cite{peacham_1985}
+    \item Maintainability \cite{peacham_1985}
+    \item Identifying the correct problem to solve which we will call risk \cite{peacham_1985}
+    \item Proper documentation of the system \cite{loesh_1985}
+    \item Cooperation between developers, users, and management and to establish jargon for their communications \cite{loesh_1985}
+    \item Overall resource management \cite{mannino_1987}
+\end{itemize}
+
+\subsection{1990s}
+By the start of the early 1990s, methodologies which integrate the entire development process become the latest trend.
+While this is happening, software projects also become smaller with end user applications making a rise.
+This causes the overall perspective to be more focused on collecting the correct requirements \cite{paul_1993} from the end users with things like end user satisfaction making an appearance for why methodologies are needed.
+\cite{drake_1991}
+
+Overall the reasons for using methodologies in the 1990s were to:
+\begin{itemize}
+    \item Minimize risk \cite{drake_1991, trussel_1999}
+    \item Reduce cost \cite{drake_1991, scarre_1992, paul_1993}
+    \item Delivery time \cite{drake_1991, scarre_1992, herald_1993, trussel_1999}
+    \item Resource management \cite{drake_1991}
+    \item Team management \cite{drake_1991}
+    \item Scheduling \cite{drake_1991, paul_1993}
+    \item End user satisfaction \cite{drake_1991}
+    \item Senior management awareness \cite{drake_1991}
+    \item Quality \cite{drake_1991, scarre_1992, herald_1993, trussel_1999}
+\end{itemize}
+
+The definition for quality is also starting to make a shift towards non-functional requirements and the quality of the methodology's documentation \cite{scarre_1992}.
+The need to establish criteria to evaluate the final software in earlier phases is also identified \cite{paul_1993, herald_1993, grossman_1997}.
+
+\subsection{2000s and beyond}
+For the last 20 years many methodologies were created for the purpose of catering for a single requirement like performance or security.
+Therefore, these results will not be considered as reasons why methodologies exist since correctly identifying and managing this single requirement is part of minimizing risk.
+
+There were still 3 articles though that listed the following reasons for using a methodology:
+\begin{itemize}
+    \item Team management \cite{lucena_2008}
+    \item Control scope \cite{lucena_2008}
+    \item Timely delivery \cite{lucena_2008, garg_2015}
+    \item Cost \cite{lucena_2008, uzturk_2013, garg_2015}
+    \item Managing changing or critical requirements \cite{lucena_2008, uzturk_2013}
+    \item Risk management \cite{lucena_2008, uzturk_2013, garg_2015}
+    \item Planning, scheduling and velocity measurements \cite{uzturk_2013}
+    \item Common communication language \cite{uzturk_2013}
+    \item Makes each role aware of their responsibility and what to do next \cite{uzturk_2013}
+    \item Quality \cite{garg_2015}
+\end{itemize}
+
+\subsection{When a methodology is not used}
