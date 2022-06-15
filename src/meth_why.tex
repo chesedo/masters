@@ -1,7 +1,10 @@
 \section{Why do methodologies exist?}
 \label{sec:meth_why}
-To answer the question of why methodologies were created, we conducted a systematic literature review.
-This review consisted of the following identical search across six publications.
+To answer the question of why methodologies were created, we conducted a systematic literature review \todo{Define systematic lit review}.
+This review consisted of the following identical search across six publications\todo{define collections}.
+
+\todo{paragraph of the 3 aspects}
+\todo{back to passive voice}
 
 First, we only considered articles, conference proceedings, and book chapters.
 
@@ -23,41 +26,43 @@ Finally, to narrow results to why methodologies exist, any of the following word
 \end{itemize}
 
 The combined results contained 543 items from 1972 to 2022.
-After reading the abstractions and removing duplicates, we created a short list of 50 results.
-From this list of 50 results, it was not possible to get the full article for 6 results.
+After reading the abstracts and removing duplicates, we created a short list of 50 results.
+From this list of 50 results, it was not possible to get the full article for 6 of them.
 And one article only had its title and abstract in English.
-The abstract, introduction, and conclusion of the remaining 43 were then used to give each a rank from 1 to 5, with 5 being the highest rank.
-Only 30 had a rank of more than 2 and only this 30 was read to answer the question of why methodologies exist.
+The abstract, introduction, and conclusion of the remaining 43 were then read to give each a rank from 1 to 5.
+A rank of 5 was given to the articles most relevant for why methodologies exist and a rank of 1 for least relevant.
+30 had a rank of more than 2 and these were read to answer the question of why methodologies exist.
 
-The results will be discussed in chronological order, grouped in 10-year periods.
+The results will be discussed in chronological order, grouped in 10-year periods. \todo{the first methodology was documented in 1956 but this search first result is from the 1970s}
 
 \subsection{1970s}
 In this period software development is still new with many practices being borrowed from engineering.
-So we find that the structured methodologies of the time promise to improve programmer's productivity.
+So\todo{remove these} we find that the structured methodologies of the time promise to improve programmer's productivity.
 For the rest of this review, we will refer to improving productivity as resource management.
 Methodologies also tried to improve the reliability, maintainability, and quality of the end product \cite{yourdon_1977}.
 
-In this period personal computer made their entrance for the first time.
-However, engineers still wrote most software to perform a specific task like flying Project Apollo.
+In this period personal computers made their entrance for the first time.
+However, engineers still wrote most software to perform a specific task, for example flying Project Apollo\todo{what are the physical aspects of project apollo}.
 These systems would have clearly defined procedures written by engineers that the software would need to follow.
 Hence, why quality and reliability was so important in this period.
 
-At the same time it would not be possible to update the program flying Apollo in mid-flight.
+At the same time it would not be possible to update the program flying Apollo in mid-flight. \todo{qualify}
 Therefore, maintainability refers more to the short-term maintainability that would be needed before take-off.
 
-In this period, methodologies were also not a complete lifecycle encompassing package as they are today \cite{soi_1982, beregi_1985}.
+In this period, methodologies were not a complete lifecycle encompassing package as they are today \cite{soi_1982, beregi_1985}.
 Rather, there was a separate methodology for design (like structured design) and another methodology for implementation (like structured programming) and yet another for analysis (structured analysis).
 Using them together was optional, so it is also possible to swap structured programming for top-down development while still using structured design. \cite{yourdon_1977}
 
 \subsection{1980s}
 In the early 1980s it was proposed that a methodology would be more successful if it covered all the development phases \cite{soi_1982}.
-And by the mid 1980s, these phase based methodologies and the tools they used would start to be combined, and this combination would be called a methodology \cite{beregi_1985}.
+And by the mid 1980s, these phase based methodologies and the tools they used would start to be combined.
+The term methodology was retained to describe this combination of phases and tools \cite{beregi_1985}. \todo{See if there is a thausuris tool}
 
 When looking at all the phases of development, cost became a concern to manage and reduce \cite{vanderlei_1983, peacham_1985, loesh_1985}.
-Managing time also became important as it had an impact on cost and timeliness ensures the system is not obsolete by the time it is operational because it took too long to be developed \cite{peacham_1985, beregi_1985, mannino_1987, paul_1993}.
-And this completes the famous triad of cost, time, and quality being important, but for any project, only two could be chosen.
+Managing time became important as it had an impact on cost and timeliness ensures the system is not obsolete by the time it is operational because it took too long to be developed \cite{peacham_1985, beregi_1985, mannino_1987, paul_1993}. \todo{search for uses of `also`}
+This completes the triad of cost, time, and quality being important, but for any project, only two could be chosen.\todo{where has quality gone}\todo{can only take away if there is something else about quality}
 
-However, methodologies also existed to manage things such as:
+Futher to cost, time, and quality, methodologies were used to manage:
 \begin{itemize}
     \item User needs \cite{peacham_1985}
     \item Maintainability \cite{peacham_1985}
@@ -68,12 +73,13 @@ However, methodologies also existed to manage things such as:
 \end{itemize}
 
 \subsection{1990s}
-By the start of the early 1990s, methodologies which integrate the entire development process become the latest trend.
-While this is happening, software projects also become smaller with end user applications making a rise.
-This causes the overall perspective to be more focused on collecting the correct requirements \cite{paul_1993} from the end users with things like end user satisfaction making an appearance for why a methodology is needed.
+By the start of the early 1990s, methodologies which integrate the entire development process were trending.\todo{check be verbs}
+While this is happening, software projects also become smaller with end user applications rising in popularity.
+This causes the overall perspective to be more focused on collecting the correct requirements \cite{paul_1993} from the end users.
+For example, end user satisfaction made an appearance for why a methodology is needed.
 \cite{drake_1991}
 
-Overall the reasons for using methodologies in the 1990s were to:
+Overall the reasons for using methodologies in the 1990s were to:\todo{time, cost and quality}
 \begin{itemize}
     \item Minimize risk \cite{drake_1991, trussel_1999}
     \item Reduce cost \cite{drake_1991, scarre_1992, paul_1993}
@@ -89,13 +95,13 @@ Overall the reasons for using methodologies in the 1990s were to:
 The definition for quality is also starting to make a shift towards non-functional requirements and the quality of the methodology's documentation \cite{scarre_1992}.
 The need to establish criteria to evaluate the final software in earlier phases is also identified \cite{paul_1993, herald_1993, grossman_1997}.
 
-\unsure{I think my tense shifted from past tense. Which tense should I be writing in? When talking about the past?}
+\unsure{I think my tense shifted from past tense. Which tense should I be writing in? When talking about the past? future imperfect}
 
 \subsection{2000s and beyond}
-For the last 20 years many methodologies were created for the purpose of catering for a single requirement like performance or security.
+For the last 20 years many methodologies were created for specific non-functional requirements such as performance and security.
 Therefore, these results will not be considered as reasons why methodologies exist since correctly identifying and managing this single requirement is part of minimizing risk.
 
-There were still 3 articles though that listed the following reasons for using a methodology:
+There were still 3 articles though that listed the following reasons for using a methodology: \todo{same grouping as earlier} \todo{a diagram/visual.... in summary}
 \begin{itemize}
     \item Team management \cite{lucena_2008}
     \item Control scope \cite{lucena_2008}
@@ -109,4 +115,4 @@ There were still 3 articles though that listed the following reasons for using a
     \item Quality \cite{garg_2015}
 \end{itemize}
 
-\subsection{When a methodology is not used}\unsure{I don't know if this will be unneeded fluff...}
+\subsection{When a methodology is not used}\unsure{I don't know if this will be unneeded fluff... discuss first}
