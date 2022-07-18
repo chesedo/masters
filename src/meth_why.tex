@@ -1,10 +1,55 @@
 \section{Why do methodologies exist?}
 \label{sec:meth_why}
-To find literature related to why methodologies were created, a descriptive systematic literature review was conducted.
-Following the steps for a systematic literature review allows this question to be answered in a reliable and repeatable manner. \cite{xiao_2017}
+A way to answer a research question in a reliable and repeatable manner is to use a systematic literature review.
+According to \cite{xiao_2017}, a systematic literature review can be conducted using the following 8 steps:
+\begin{enumerate}
+    \item Formulate the research problem
 
-By following the steps from \cite{xiao_2017}, the focus of this review is to answer ``why methodologies exist''.
-The established review protocol stated only articles, conference proceedings, book chapters will be considered.
+      This involves creating the research question(s) to guide the research inquiry.
+      If the question is too broad, then the data to review will be huge and unmanageable, requiring the question to be divided into sub topics.
+      And getting the question right the first time maybe unlikely, in which case iterations can be used to identify the appropriate question.
+    \item Develop and review the research protocol
+
+      The review protocol is a preset plan outlining the methods used to conduct the review.
+      This is done to reduce bias during data selection and analysis while at the same time increasing the repeatability of the review.
+    \item Search the literature
+
+      The literature is searched in a systematic way to answer the question identified in step 1.
+      Searching involves three major sources: electronic databases; backward searching; and forward searching.
+      To search electronic databases, the keywords used for the search needs to be established together with other search restrictions like publication language, data range of publications, and sources of financial support.
+    \item Screen for inclusion
+
+      The search results need to be screened to remove irrelevant results that will not contribute to the final data extraction.
+      Doing a first initial screening based on the abstracts followed by an assessment of the full-text (step 5) is considered an effective procedure.
+      A set of criteria for inclusion/exclusion, therefore, needs to be established to ensure the reproducibility of the review.
+    \item Assess quality
+
+      This is the final trimming down of results before data is extracted.
+      Here each result is reviewed based on a full-text assessment against an established quality checklist.
+      This checklist can result in the ranking of results to be used to either give the extracted data a quantative weight or by placing them qualitavely for constructing arguments.
+    \item Extract data
+
+      Depending on the type of systematic literature review, the data is extracted from the results and recorded in a format for further analysis.
+    \item Analyze and synthesize data
+
+      Here tables, charts, and textual descriptions of the data is created as needed by the type of review being conducted.
+    \item Report findings
+
+      The process used to conduct the review is reported in enough detail to be able to reproduce the study.
+      The findings of the review is reported in a clear structure where the studies might be grouped into themes and characteristics.
+      Novel findings and unexpected results are highlighted before the report is concluded.
+\end{enumerate}
+
+Using these 8 steps, a systematic literature review was conducted to answer the research problem for this section.
+
+\subsection{Formulate the research problem}
+The research problem for this section is finding out ``why were methodologies created''.
+This will aid in understanding the types of problems methodologies try to solve and, therefore, why methodologies are still useful today.
+
+\subsection{Develop and review the research protocol}
+A descriptive systematic literature review was conducted.
+This resulted in a review protocol that only considered articles, conference proceedings, and book chapters.
+
 The search criteria was for titles to include any of the following phrases:
 \begin{itemize}
     \item development methodology
@@ -13,7 +58,7 @@ The search criteria was for titles to include any of the following phrases:
     \item software development life cycle
 \end{itemize}
 
-And to answer the question of ``why'', any of the following needed to appear in the abstract:
+While any of the following needed to appear in the abstract:
 \begin{itemize}
     \item creation
     \item create
@@ -22,39 +67,67 @@ And to answer the question of ``why'', any of the following needed to appear in 
     \item benefit
 \end{itemize}
 
+The initial review protocol searched for these phrases anywhere in the article, but this resulted in more than 20,000 results.
+Therefore, the requirement on the title was established to ensure articles focused on methodologies.
+And the requirement on the abstract is to help tunnel articles focusing on the ``why'' aspect.
+
+\subsection{Search the literature}
 With this review protocol, the following collections were searched:
-\begin{itemize}
-    \item ScienceDirect with 32 results
-    \item ACM with 55 results
-    \item Emarald insight with 13 results
-    \item ProQuest with 126 results
-    \item EBSCOHost with 102 results
-    \item IEEE with 243 results
-\end{itemize}
 
-Springer was part of the search plan, but their search is broken when boolean operators are used in the title.
-Therefore, Springer was cut from the searched publications.
+\begin{table}[H]
+\begin{tabular}{ |l|r|r| }
+  \hline
+  Collection & Result Count & Selected \\
+  \hline
+  ScienceDirect & 32 & ? \\
+  ACM & 55 & ? \\
+  Emarald & 13 & ? \\
+  ProQuest & 126 & ? \\
+  EBSCOHost & 102 & ? \\
+  IEEE & 243 & ? \\
+  \hline
+\end{tabular}
+\label{table:search_lit}
+\end{table}
 
-The combined results contained 543 \pieter{Why doesn't this add up? 🤔} items from 1972 to 2022.
-Two sets of screening was used to filter this list down.
-First, the results were evaulated on their abstractions and duplicates were removed.
-This created a short list of 50 results.
-The second set of screening involved downloading the full article for this 50 results and evaluating their abstract, introduction, and conclusion for inclusion.
+Springer was part of the search plan, but their search does not work with boolean operators when used in the title.
+This resulted in Springer not forming part of the searched collections.
+
+The combined results contained 543 \pieter{Why doesn't this add up? 🤔} items from 1972 to 2022 as the entire history was considered.
+There was also no restriction on the sources of financial support for results.
+However, the only restriction that did exist was articles had to be written in English.
+
+\subsection{Screen for inclusion}
+Two sets of screening was used to filter this list.
+First, the results were evaulated on their abstracts and duplicates were removed which created a list of 50 results.
+The criteria for inclusion at this step was for articles to explain ``why'' methodologies existed or were created.
+
+\subsection{Assess quality}
+The second set of screening involved downloading the full article for these 50 results and evaluating their abstract, introduction, and conclusion for further consideration.
 It was not possible to get the full article for 6 of these results, and 1 result only had its title and abstract in English.
-The remaining 43 results were thus evaluated and given a rank from 1 to 5.
+The remaining 43 results were evaluated and given a rank from 1 to 5.
 A rank of 5 was given to the articles most relevant for ``why methodologies exist'' and a rank of 1 for least relevant.
 
-Since this is a descriptive systematic literature review, the qualities of each result was ignored to be able built an accurate historic picture of ``why methodoligies exist''.
-However, it was decided to only analyse the results with a final ranking of 2 or more which was the case for 30 results.
+Since this is a descriptive systematic literature review, the qualities in terms of references of each result was ignored to be able to built an accurate historic picture of ``why methodoligies exist''.
+However, it was decided to analyse the results of all final rankings that were not deemed least relevant which reduces the final result to 30 items.
 
-Extracting the data involved making a list of phrases used to describe ``why a methodology exists'' or the benefits of a methodology from each result.
-The results were then grouped into ten year periods with matching phrases being summed together.
+\subsection{Extract data}
+Extracting data involved reading each result's full-text and trying to identify the reasons ``why a methodology existed''.
+In most results, these reasons where in the form of bullet points where each bullet item was a reason answering the ``why''.
+Each of these items were extracted to a list and linked back to the result it came from.
+
+\subsection{Analyze and synthesize data}
+This list was then grouped into ten year periods to understand how requirements changed with each era.
+For each ten year period, the list items was accumulated together when the items were the same or had the same meaning.
+This involved distilling similar reasons into one common phrase to be an umbrella term for all the items under it.
+These umbrella terms were also kept consistent over each era.
 
 \pieter{A backward search section is missing here}
 
-The results will be discussed in chronological order, grouped in 10-year periods. \pieter{the first methodology was documented in 1956 but this search first result is from the 1970s}
+\subsection{Report findings}
+The finding for each era now follows. \pieter{the first methodology was documented in 1956 but this search first result is from the 1970s}
 
-\subsection{1970s}
+\subsubsection{1970s}
 In this period software development is still new with many practices being borrowed from engineering.
 It was, therefore, found that the structured methodologies of the time promised to improve programmer's productivity.
 For the rest of this review, we will refer to improving productivity as resource management.
@@ -72,7 +145,7 @@ In this period, methodologies were not a complete lifecycle encompassing package
 Rather, there was a separate methodology for design (like structured design) and another methodology for implementation (like structured programming) and yet another for analysis (structured analysis).
 Using them together was optional, thus it was possible to swap structured programming for top-down development while still using structured design. \cite{yourdon_1977}
 
-\subsection{1980s}
+\subsubsection{1980s}
 In the early 1980s it was proposed that a methodology would be more successful if it covered all the development phases \cite{soi_1982}.
 And by the mid 1980s, these phase based methodologies and the tools they used would start to be combined.
 The term methodology was retained to describe this combination of phases and tools \cite{beregi_1985}. \pieter{See if there is a thausuris tool}
@@ -91,7 +164,7 @@ Futher to cost, time, and quality, methodologies were used to manage:
     \item Overall resource management \cite{mannino_1987}
 \end{itemize}
 
-\subsection{1990s}
+\subsubsection{1990s}
 By the start of the early 1990s, methodologies which integrate the entire development process were trending.\pieter{check be verbs}
 While this is happening, software projects become smaller with end user applications rising in popularity.
 This causes the overall perspective to be more focused on collecting the correct requirements \cite{paul_1993} from the end users.
@@ -116,7 +189,7 @@ And the need to establish criteria to evaluate the final software in earlier pha
 
 \unsure{I think my tense shifted from past tense. Which tense should I be writing in? When talking about the past? future imperfect}
 
-\subsection{2000s and beyond}
+\subsubsection{2000s and beyond}
 For the last 20 years many methodologies were created for specific non-functional requirements such as performance and security.
 Therefore, these results will not be considered as reasons why methodologies exist since correctly identifying and managing this single requirement is part of minimizing risk.
 
